@@ -1,0 +1,23 @@
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe.config
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).pdb
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csprojAssemblyReference.cache
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.CoreCompileInputs.cache
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).exe
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).pdb
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe.config
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).pdb
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.AssemblyReference.cache
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.CoreCompileInputs.cache
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).exe
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).pdb
+D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe.config
+D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe
+D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).pdb
+D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.AssemblyReference.cache
+D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.SuggestedBindingRedirects.cache
+D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.CoreCompileInputs.cache
+D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).exe
+D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).pdb
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.SuggestedBindingRedirects.cache

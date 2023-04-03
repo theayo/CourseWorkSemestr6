@@ -1,0 +1,6 @@
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe.config
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\bin\Debug\NoCap(nte framework).pdb
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(framework).csproj.CoreCompileInputs.cache
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).exe
+C:\Users\bezzu\source\repos\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).pdb

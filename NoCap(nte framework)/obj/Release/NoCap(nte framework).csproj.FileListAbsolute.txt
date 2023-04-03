@@ -1,0 +1,8 @@
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\bin\Release\NoCap(nte framework).exe.config
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\bin\Release\NoCap(nte framework).exe
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\bin\Release\NoCap(nte framework).pdb
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Release\NoCap(nte framework).csproj.AssemblyReference.cache
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Release\NoCap(nte framework).csproj.SuggestedBindingRedirects.cache
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Release\NoCap(nte framework).csproj.CoreCompileInputs.cache
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Release\NoCap(nte framework).exe
+D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Release\NoCap(nte framework).pdb
