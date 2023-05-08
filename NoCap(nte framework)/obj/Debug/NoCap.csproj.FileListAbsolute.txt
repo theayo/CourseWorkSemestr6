@@ -1,0 +1,8 @@
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe.config
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\NoCap(nte framework).pdb
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap.csproj.AssemblyReference.cache
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap.csproj.SuggestedBindingRedirects.cache
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap.csproj.CoreCompileInputs.cache
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).exe
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).pdb

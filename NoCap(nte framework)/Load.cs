@@ -20,8 +20,8 @@ namespace NoCap_nte_framework_
         }
         public void showLoad()
         {
-            SoundPlayer player = new SoundPlayer(@"D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\CyberPunk.wav");
-            SoundPlayer Alarm = new SoundPlayer(@"D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Alarm.wav");
+            SoundPlayer player = new SoundPlayer(@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\CyberPunk.wav");
+            SoundPlayer Alarm = new SoundPlayer(@" H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\Alarm.wav");
             player.Play();
             Pashuk pashuk = new Pashuk();
             Alekseev alekseev= new Alekseev();
@@ -37,7 +37,7 @@ namespace NoCap_nte_framework_
 
                     Console.SetCursorPosition(0, 0);
                     pashuk.paintPashuk();
-                    Console.SetCursorPosition(19, 50);
+                        //Console.SetCursorPosition(19, 50);
                 }
                 if (15 < i && i < 30)
                 {
