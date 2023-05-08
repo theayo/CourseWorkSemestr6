@@ -34,7 +34,7 @@ namespace NoCap_nte_framework_
 
                 int centerX = (1);
                 int centerY = (50) + 2 * i;
-                Console.SetCursorPosition(centerX, centerY);
+                //Console.SetCursorPosition(centerX, centerY);
                 Console.Write(menuItems[i]);
                 Console.ResetColor();
             }

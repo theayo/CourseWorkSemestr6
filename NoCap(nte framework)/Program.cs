@@ -19,8 +19,8 @@ namespace NoCap_nte_framework_
         private static bool fast = false;
         private static char stage = ' ';
 
-        private const int ScreenWidth = 150;
-        private const int ScreenHeight = 110;
+        private const int ScreenWidth = 100;
+        private const int ScreenHeight = 63;
 
         private const int MapHeight = 32;
         private const int MapWidth = 32;
@@ -46,20 +46,20 @@ namespace NoCap_nte_framework_
 
             Menu a = new Menu();
 
-            SoundPlayer player = new SoundPlayer    (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\SoundGta4.wav");
-            SoundPlayer Ramzes1 = new SoundPlayer   (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\RAMZES1.wav");
-            SoundPlayer Ramzes2 = new SoundPlayer   (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\RAMZES2.wav");
-            SoundPlayer Pashuk1 = new SoundPlayer   (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Pashuk1.wav");
-            SoundPlayer Alekseev1 = new SoundPlayer (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\ALEKSEEV1.wav");
-            SoundPlayer SoundTrack = new SoundPlayer(@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\SoundTrack.wav");
-            SoundPlayer Flash = new SoundPlayer     (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Flash.wav");
-            SoundPlayer kuzya = new SoundPlayer     (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Obshaga.wav");
-            SoundPlayer cana = new SoundPlayer      (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Canaryka.wav");
-            SoundPlayer metro = new SoundPlayer     (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Metro.wav");
-            SoundPlayer Thanks = new SoundPlayer    (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\PASHUK_thanks.wav");
-            SoundPlayer EXEPTION = new SoundPlayer  (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\ALEKSEEV_EXEPTION.wav");
-            SoundPlayer QUESTION = new SoundPlayer  (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\ALEKSEEV_QUESTION.wav");
-            SoundPlayer BALL = new SoundPlayer      (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\ALEKSEEV_BALL.wav");
+            SoundPlayer player = new SoundPlayer    (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\SoundGta4.wav");
+            SoundPlayer Ramzes1 = new SoundPlayer   (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\RAMZES1.wav");
+            SoundPlayer Ramzes2 = new SoundPlayer   (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\RAMZES2.wav");
+            SoundPlayer Pashuk1 = new SoundPlayer   (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\Pashuk1.wav");
+            SoundPlayer Alekseev1 = new SoundPlayer (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\ALEKSEEV1.wav");
+            SoundPlayer SoundTrack = new SoundPlayer(@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\SoundTrack.wav");
+            SoundPlayer Flash = new SoundPlayer     (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\Flash.wav");
+            SoundPlayer kuzya = new SoundPlayer     (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\Obshaga.wav");
+            SoundPlayer cana = new SoundPlayer      (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\Canaryka.wav");
+            SoundPlayer metro = new SoundPlayer     (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\Metro.wav");
+            SoundPlayer Thanks = new SoundPlayer    (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\PASHUK_thanks.wav");
+            SoundPlayer EXEPTION = new SoundPlayer  (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\ALEKSEEV_EXEPTION.wav");
+            SoundPlayer QUESTION = new SoundPlayer  (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\ALEKSEEV_QUESTION.wav");
+            SoundPlayer BALL = new SoundPlayer      (@"H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\resources\ALEKSEEV_BALL.wav");
 
             player.PlayLooping();
             while (true)

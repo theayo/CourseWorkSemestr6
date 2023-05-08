@@ -21,3 +21,11 @@ D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\No
 D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).exe
 D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).pdb
 D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.SuggestedBindingRedirects.cache
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe.config
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\NoCap(nte framework).pdb
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.AssemblyReference.cache
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.SuggestedBindingRedirects.cache
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).csproj.CoreCompileInputs.cache
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).exe
+H:\sofuck\sralk\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).pdb
