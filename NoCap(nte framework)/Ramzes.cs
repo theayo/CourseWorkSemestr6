@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Media;
+using Alexeev.Models;
 
-namespace NoCap_nte_framework_
+namespace Alexeev
 {
     class Ramzes
     {
-        private static SoundPlayer Answer = new SoundPlayer(@"D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Answer.wav");
+        private static SoundPlayer Answer = new SoundPlayer(@"resources\Answer.wav");
         public string Close = "";
         public string Open = "";
         public string OpenBrov = "";
@@ -23,7 +24,7 @@ namespace NoCap_nte_framework_
             Console.BackgroundColor = ConsoleColor.Black;
         }
 
-        public void quest(string str,string answ1,string answ2, Ramzes ram)
+        public void quest(string str, string answ1,string answ2, Ramzes ram)
         {
             
             string output = "";
@@ -76,6 +77,59 @@ namespace NoCap_nte_framework_
                 return;
             }
            
+        }
+
+        public async Task quest(string str, string answ1, Ramzes ram, ResponseCompanion resp)
+        {
+
+            string output = "";
+
+            int i = 0;
+            string str0 = " ";
+
+            paintRamzes();
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine(str);
+            
+            Menu menu = new Menu();
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            var answ2 = Console.ReadLine();
+
+            while (true)
+            {
+                ram.paintRamzes();
+                Console.WriteLine(); 
+                Console.WriteLine();
+                Console.WriteLine();
+
+                Console.WriteLine(str + " \n");
+                str0 = menu.drawMenu(answ1, answ2, 55);
+
+                if (str0 == answ1 || str0 == answ2)
+                    break;
+
+            }
+            if (str0 == answ2)
+            {
+                resp.Context.Add(new Companion(){content = answ2, role = "user"});
+                ServiceApi serv = new ServiceApi();
+
+                var res = await serv.GenerateChatGptResponse(resp.Context);
+
+                await quest(res.Answer.content, "Fuck you", ram, resp);
+                return;
+            }
+
+            if (str0 == answ1)
+            {
+                return;
+            }
+
         }
         public void initOpenBrov()
         {
@@ -244,7 +298,7 @@ namespace NoCap_nte_framework_
 
         public void paintRamzes()
         {
-            //  Console.Clear();
+            Console.Clear();
             int i = 0;
             while (Close.Length != i)
             {

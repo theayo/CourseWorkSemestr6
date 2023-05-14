@@ -5,7 +5,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Threading.Tasks;
 
-namespace NoCap_nte_framework_
+namespace Alexeev
 {
     class Dialog
     {

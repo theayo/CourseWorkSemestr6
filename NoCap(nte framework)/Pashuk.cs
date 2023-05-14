@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Media;
 
-namespace NoCap_nte_framework_
+namespace Alexeev
 {
     class Pashuk
     {

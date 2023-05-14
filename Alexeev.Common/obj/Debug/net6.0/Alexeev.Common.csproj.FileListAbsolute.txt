@@ -1,0 +1,12 @@
+H:\CourseWorkSemestr6\Alexeev.Common\bin\Debug\net6.0\Alexeev.Common.deps.json
+H:\CourseWorkSemestr6\Alexeev.Common\bin\Debug\net6.0\Alexeev.Common.dll
+H:\CourseWorkSemestr6\Alexeev.Common\bin\Debug\net6.0\Alexeev.Common.pdb
+H:\CourseWorkSemestr6\Alexeev.Common\obj\Debug\net6.0\Alexeev.Common.csproj.AssemblyReference.cache
+H:\CourseWorkSemestr6\Alexeev.Common\obj\Debug\net6.0\Alexeev.Common.GeneratedMSBuildEditorConfig.editorconfig
+H:\CourseWorkSemestr6\Alexeev.Common\obj\Debug\net6.0\Alexeev.Common.AssemblyInfoInputs.cache
+H:\CourseWorkSemestr6\Alexeev.Common\obj\Debug\net6.0\Alexeev.Common.AssemblyInfo.cs
+H:\CourseWorkSemestr6\Alexeev.Common\obj\Debug\net6.0\Alexeev.Common.csproj.CoreCompileInputs.cache
+H:\CourseWorkSemestr6\Alexeev.Common\obj\Debug\net6.0\Alexeev.Common.dll
+H:\CourseWorkSemestr6\Alexeev.Common\obj\Debug\net6.0\refint\Alexeev.Common.dll
+H:\CourseWorkSemestr6\Alexeev.Common\obj\Debug\net6.0\Alexeev.Common.pdb
+H:\CourseWorkSemestr6\Alexeev.Common\obj\Debug\net6.0\ref\Alexeev.Common.dll

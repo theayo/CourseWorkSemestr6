@@ -6,8 +6,10 @@ using System.Media;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows;
+using System.Data;
+using Alexeev.Models;
 
-namespace NoCap_nte_framework_
+namespace Alexeev
 {
     class Program
     {
@@ -19,8 +21,8 @@ namespace NoCap_nte_framework_
         private static bool fast = false;
         private static char stage = ' ';
 
-        private const int ScreenWidth = 150;
-        private const int ScreenHeight = 110;
+        private const int ScreenWidth = 250; // 
+        private const int ScreenHeight = 70; //
 
         private const int MapHeight = 32;
         private const int MapWidth = 32;
@@ -33,35 +35,36 @@ namespace NoCap_nte_framework_
         private static double _playerA = 1.5;
 
         private static readonly StringBuilder Map = new StringBuilder();
-        private static SoundPlayer END = new SoundPlayer(@"D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\END.wav");
+        private static SoundPlayer END = new SoundPlayer(@"resources\END.wav");
 
+        ServiceApi api = new ServiceApi();
         static async Task Main()
         {
-           
             //Console.Beep();
             Console.CursorVisible = false;
             Console.ResetColor();
             Console.SetWindowSize(ScreenWidth, ScreenHeight);
             Console.SetBufferSize(ScreenWidth, ScreenHeight);
-
+            
             Menu a = new Menu();
 
-            SoundPlayer player = new SoundPlayer    (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\SoundGta4.wav");
-            SoundPlayer Ramzes1 = new SoundPlayer   (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\RAMZES1.wav");
-            SoundPlayer Ramzes2 = new SoundPlayer   (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\RAMZES2.wav");
-            SoundPlayer Pashuk1 = new SoundPlayer   (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Pashuk1.wav");
-            SoundPlayer Alekseev1 = new SoundPlayer (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\ALEKSEEV1.wav");
-            SoundPlayer SoundTrack = new SoundPlayer(@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\SoundTrack.wav");
-            SoundPlayer Flash = new SoundPlayer     (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Flash.wav");
-            SoundPlayer kuzya = new SoundPlayer     (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Obshaga.wav");
-            SoundPlayer cana = new SoundPlayer      (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Canaryka.wav");
-            SoundPlayer metro = new SoundPlayer     (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Metro.wav");
-            SoundPlayer Thanks = new SoundPlayer    (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\PASHUK_thanks.wav");
-            SoundPlayer EXEPTION = new SoundPlayer  (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\ALEKSEEV_EXEPTION.wav");
-            SoundPlayer QUESTION = new SoundPlayer  (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\ALEKSEEV_QUESTION.wav");
-            SoundPlayer BALL = new SoundPlayer      (@"D:\labc\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\ALEKSEEV_BALL.wav");
+            SoundPlayer player = new SoundPlayer    (@"resources/SoundGta4.wav");
+            SoundPlayer Ramzes1 = new SoundPlayer   (@"resources\RAMZES1.wav");
+            SoundPlayer Ramzes2 = new SoundPlayer   (@"resources\RAMZES2.wav");
+            SoundPlayer Pashuk1 = new SoundPlayer   (@"resources\Pashuk1.wav");
+            SoundPlayer Alekseev1 = new SoundPlayer (@"resources\ALEKSEEV1.wav");
+            SoundPlayer SoundTrack = new SoundPlayer(@"resources\SoundTrack.wav");
+            SoundPlayer Flash = new SoundPlayer     (@"resources\Flash.wav");
+            SoundPlayer kuzya = new SoundPlayer     (@"resources\Obshaga.wav");
+            SoundPlayer cana = new SoundPlayer      (@"resources\Canaryka.wav");
+            SoundPlayer metro = new SoundPlayer     (@"resources\Flash.wav");
+            SoundPlayer Thanks = new SoundPlayer    (@"resources\PASHUK_thanks.wav");
+            SoundPlayer EXEPTION = new SoundPlayer  (@"resources\ALEKSEEV_EXEPTION.wav");
+            SoundPlayer QUESTION = new SoundPlayer  (@"resources\ALEKSEEV_QUESTION.wav");
+            SoundPlayer BALL = new SoundPlayer      (@"resources\ALEKSEEV_BALL.wav");
 
             player.PlayLooping();
+
             while (true)
             {
                 string selectedMenuItem = a.drawMenu();//menu
@@ -69,19 +72,20 @@ namespace NoCap_nte_framework_
                 if (selectedMenuItem == "Start")
                 {
                     player.Stop();
+
                     Load load = new Load();
-                    Console.Clear();
-                    load.showLoad();
+                    
+                    //load.showLoad();
+
                     Flash.Play();
 
 
-                    InitMap();
+                    await InitMap();
 
                     var screen = new char[ScreenWidth * ScreenHeight];  //screen buffer
 
                     DateTime dateTimeFrom = DateTime.Now;
                     DateTime date1 = new DateTime(0, 0);
-                    String timeInGame;
 
                     while (true)
                     {
@@ -159,7 +163,7 @@ namespace NoCap_nte_framework_
 
                         //Timer
                         date1 = date1.AddSeconds(0.005);
-                        timeInGame = date1.ToString("mm:ss");
+                        var timeInGame = date1.ToString("mm:ss");
 
                         //Stats
                         char[] stats = $"Pashuk Health:{Health}, Time: {timeInGame}, FPS: {(int)(1 / elapsedTime)}"
@@ -181,8 +185,7 @@ namespace NoCap_nte_framework_
                                 Map[2 * MapHeight + 8] = '?';
                                 Ramzes1.Play();
                                 v.quest("Доброго дня! Сегодня хорошая погода!", "Доброго дня!", "Хорошая!", v);
-                                Console.ForegroundColor = ConsoleColor.DarkGray;
-                                Console.BackgroundColor = ConsoleColor.Yellow;
+                                
 
                                 _playerX = 12.0;
                                 _playerY = 3.0;
@@ -195,7 +198,30 @@ namespace NoCap_nte_framework_
                                     SoundTrack.Play();
                                     timeInGame = "";
                                 }
-                                
+
+                                Console.Clear();
+                                v.paintRamzes();
+
+                                var dialog = new List<Companion>()
+                                { new Companion(){
+                                        role = "system",
+                                        content = "You is schoolboy, kid, jerk, lives in a hostel and loves inappropriate and jokes, and always jokes them when answering!"
+                                    },
+                                    new Companion() {
+                                        role = "user",
+                                        content = "hi, where i am?"
+                                    }
+                                };
+
+                                var api = new ServiceApi();
+
+                                var res = await api.GenerateChatGptResponse(dialog);
+
+                                await v.quest(res.Answer.content, "Fuck you!", v, res);
+
+                                Console.ForegroundColor = ConsoleColor.DarkGray;
+                                Console.BackgroundColor = ConsoleColor.Yellow;
+
                                 break;
                             case 'r':
                                 Ramzes ramzes2 = new Ramzes();
@@ -420,41 +446,58 @@ namespace NoCap_nte_framework_
 
         }
 
-        public static void InitMap()
+        public static async Task InitMap()
         {
+
             Map.Clear();
-            Map.Append("################################");
-            Map.Append("#......##############.rrr..#####");
-            Map.Append("#.....*##...........#.rrr#.#++##");
-            Map.Append("#....***#.............rrr..#++##");
-            Map.Append("#.....*##...........#......#++##");
-            Map.Append("#......##############......#####");
-            Map.Append("################################");
-            Map.Append("#....#...#.#..^^#^.......&&&....");
-            Map.Append("#.....#.......^^^^.......&&&....");
-            Map.Append("#..#.....#..#.^^^^.......&&&....");
-            Map.Append("################################");
-            Map.Append("#..............................#");
-            Map.Append("#####%%##%%#####################");
-            Map.Append("#............##................#");
-            Map.Append("#............##................#");
-            Map.Append("#####..##..#####################");
-            Map.Append("#..............................#");
-            Map.Append("################################");
-            Map.Append("#......#...#......!!!......@####");
-            Map.Append("#.................!!!......@@@##");
-            Map.Append("#............#....!!!......@####");
-            Map.Append("################################");
-            Map.Append("###...##.....##..............#.#");
-            Map.Append("###...##.##..##.......##....#..#");
-            Map.Append("###...##.##..##...##..##..#...##");
-            Map.Append("###......##..##...==..##...###.#");
-            Map.Append("###ggg##.##hh###..==..##...#...#");
-            Map.Append("###ggg...##hh###......##bb.....#");
-            Map.Append("###########.......######bb####.#");
-            Map.Append("#..#....#...####..##..##.......#");
-            Map.Append("#....#......##........##..#..#.#");
-            Map.Append("###########################??###");
+            var result = await ServiceApi.GetMap();
+            ;
+            if (!string.IsNullOrEmpty(result))
+            {
+                var map = result.Split(',').ToList();
+
+                map.ForEach(m =>
+                {
+                    Map.Append(m);
+                    Console.WriteLine(m);
+                });
+            }
+            else
+            {
+                Map.Append("################################");
+                Map.Append("#......##############.rrr..#####");
+                Map.Append("#.....*##...........#.rrr#.#++##");
+                Map.Append("#....***#.............rrr..#++##");
+                Map.Append("#.....*##...........#......#++##");
+                Map.Append("#......##############......#####");
+                Map.Append("################################");
+                Map.Append("#....#...#.#..^^#^.......&&&....");
+                Map.Append("#.....#.......^^^^.......&&&....");
+                Map.Append("#..#.....#..#.^^^^.......&&&....");
+                Map.Append("################################");
+                Map.Append("#..............................#");
+                Map.Append("#####%%##%%#####################");
+                Map.Append("#............##................#");
+                Map.Append("#............##................#");
+                Map.Append("#####..##..#####################");
+                Map.Append("#..............................#");
+                Map.Append("################################");
+                Map.Append("#......#...#......!!!......@####");
+                Map.Append("#.................!!!......@@@##");
+                Map.Append("#............#....!!!......@####");
+                Map.Append("################################");
+                Map.Append("###...##.....##..............#.#");
+                Map.Append("###...##.##..##.......##....#..#");
+                Map.Append("###...##.##..##...##..##..#...##");
+                Map.Append("###......##..##...==..##...###.#");
+                Map.Append("###ggg##.##hh###..==..##...#...#");
+                Map.Append("###ggg...##hh###......##bb.....#");
+                Map.Append("###########.......######bb####.#");
+                Map.Append("#..#....#...####..##..##.......#");
+                Map.Append("#....#......##........##..#..#.#");
+                Map.Append("###########################??###");
+            }
+            
         }
 
         public static Dictionary<int, char> CastRay(int x)

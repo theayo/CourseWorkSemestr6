@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Media;
 
-namespace NoCap_nte_framework_
+namespace Alexeev
 {
     class Alekseev
     {
-        private static SoundPlayer Answer = new SoundPlayer(@"D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Answer.wav");
+        private static SoundPlayer Answer = new SoundPlayer(@"resources\Answer.wav");
         public string Close = "";
         public string Open = "";
         public string OpenBrov = "";

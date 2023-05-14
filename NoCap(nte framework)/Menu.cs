@@ -5,7 +5,7 @@ using System.Text;
 using System.Media;
 using System.Threading.Tasks;
 
-namespace NoCap_nte_framework_
+namespace Alexeev
 {
     class Menu
     {

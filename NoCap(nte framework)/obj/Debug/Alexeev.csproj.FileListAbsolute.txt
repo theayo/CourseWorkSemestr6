@@ -1,0 +1,47 @@
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\CyberPunk.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\END.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\PASHUK_thanks.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\Obshaga.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\Flash.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\SoundTrack.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\PASHUK1.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\Answer.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\ALEKSEEV1.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\Alarm.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\Canaryka.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\ALEKSEEV_EXEPTION.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\ALEKSEEV_QUESTION.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\ALEKSEEV_BALL.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\SoundGta4.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\RAMZES2.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\resources\RAMZES1.wav
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe.config
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\NoCap(nte framework).exe
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\NoCap(nte framework).pdb
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\Newtonsoft.Json.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Buffers.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Memory.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Numerics.Vectors.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Text.Encodings.Web.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Text.Json.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Threading.Tasks.Extensions.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.ValueTuple.dll
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\Newtonsoft.Json.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Buffers.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Memory.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Numerics.Vectors.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Text.Encodings.Web.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Text.Json.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.Threading.Tasks.Extensions.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\bin\Debug\System.ValueTuple.xml
+H:\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\Alexeev.csproj.AssemblyReference.cache
+H:\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\Alexeev.csproj.SuggestedBindingRedirects.cache
+H:\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).exe.config
+H:\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\Alexeev.csproj.CoreCompileInputs.cache
+H:\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\Alexeev.csproj.CopyComplete
+H:\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).exe
+H:\CourseWorkSemestr6\NoCap(nte framework)\obj\Debug\NoCap(nte framework).pdb

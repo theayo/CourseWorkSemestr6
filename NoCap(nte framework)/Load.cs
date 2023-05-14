@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Media;
 
-namespace NoCap_nte_framework_
+namespace Alexeev
 {
     class Load
     {
@@ -20,8 +20,10 @@ namespace NoCap_nte_framework_
         }
         public void showLoad()
         {
-            SoundPlayer player = new SoundPlayer(@"D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\CyberPunk.wav");
-            SoundPlayer Alarm = new SoundPlayer(@"D:\Repos(trap aleks)\NoCap(nte framework)\NoCap(nte framework)\resources\Alarm.wav");
+            Console.Clear();
+
+            SoundPlayer player = new SoundPlayer(@"resources\CyberPunk.wav");
+            SoundPlayer Alarm = new SoundPlayer(@"resources\Alarm.wav");
             player.Play();
             Pashuk pashuk = new Pashuk();
             Alekseev alekseev= new Alekseev();

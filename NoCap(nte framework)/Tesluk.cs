@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NoCap_nte_framework_
+namespace Alexeev
 {
     class Tesluk
     {
